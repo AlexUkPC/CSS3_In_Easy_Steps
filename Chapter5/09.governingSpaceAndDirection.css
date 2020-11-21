@@ -1,0 +1,21 @@
+p,
+dd {
+    background: yellow;
+    width: 500px;
+}
+
+p {
+    white-space: pre;
+}
+
+dd.ltr {
+    direction: ltr;
+}
+
+dd.rtl {
+    direction: rtl;
+}
+
+dd.bidi-off {
+    unicode-bidi: bidi-override;
+}

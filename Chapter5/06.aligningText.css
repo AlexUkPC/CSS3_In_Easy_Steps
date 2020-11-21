@@ -1,0 +1,23 @@
+p,
+span {
+    font: medium monospace;
+    background: yellow;
+    border: 1px solid red;
+    width: 300px;
+}
+
+p#equalize {
+    text-align: justify;
+}
+
+span.up {
+    vertical-align: super;
+}
+
+span.down {
+    vertical-align: sub;
+}
+
+span.top {
+    vertical-align: top;
+}

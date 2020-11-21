@@ -1,0 +1,22 @@
+table {
+    width: 500px;
+    height: 60px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+td.twin {
+    border: 5px double green;
+}
+
+td.dots {
+    border: 5px dotted red;
+}
+
+td.full {
+    border: 5px solid blue;
+}
+
+table.fold {
+    border-collapse: collapse;
+}

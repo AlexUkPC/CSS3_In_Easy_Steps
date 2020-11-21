@@ -1,0 +1,42 @@
+cap {
+    display: table-caption;
+}
+
+liga {
+    display: table;
+}
+
+hdrs {
+    display: table-header-group;
+}
+
+rows {
+    display: table-row-group;
+}
+
+team {
+    display: table-row;
+}
+
+name,
+pos,
+pts,
+lbl {
+    display: table-cell;
+}
+
+liga {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    border-spacing: 3px;
+    border: 8px ridge lime;
+}
+
+hdrs {
+    background: lime;
+}
+
+rows {
+    background: aqua;
+}

@@ -1,0 +1,17 @@
+p {
+    background: yellow;
+}
+
+img[src="06.floatingContentBoxes1.png"] {
+    float: right;
+    border: 3px dashed red;
+}
+
+img[src="06.floatingContentBoxes2.png"] {
+    float: left;
+    border: 3px dashed blue;
+}
+
+p.clear {
+    clear: left
+}

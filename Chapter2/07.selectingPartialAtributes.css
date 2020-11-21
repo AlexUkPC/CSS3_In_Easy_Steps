@@ -1,0 +1,16 @@
+*[class~="animal"] {
+    background: lime;
+}
+
+*[lang|="es"] {
+    color: red;
+    background: yellow;
+}
+
+*[src|="07.selectingPartialAtributes/ring"] {
+    background: fuchsia;
+}
+
+*[src|="07.selectingPartialAtributes/box"] {
+    background: aqua;
+}

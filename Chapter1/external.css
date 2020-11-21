@@ -1,0 +1,9 @@
+@import "subHeading.css";
+h1{
+    color: yellow;
+    background: blue;
+}
+p{
+    color: white;
+    background: red;
+}

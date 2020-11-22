@@ -1,0 +1,14 @@
+div#star {
+    width: 480px;
+    height: 50px;
+    background: aqua;
+    border: 20px solid transparent;
+}
+
+div#star {
+    -ms-border-image: url(01.borderingImages.png) 100% repeat;
+    -moz-border-image: url(01.borderingImages.png) 100% repeat;
+    -webkit-border-image: url(01.borderingImages.png) 100% repeat;
+    -o-border-image: url(01.borderingImages.png) 100% repeat;
+    border-image: url(01.borderingImages.png) 100% repeat;
+}

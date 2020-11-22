@@ -1,0 +1,33 @@
+p:before {
+    content: "***";
+    background: yellow;
+}
+
+p:after {
+    content: "!!!";
+    background: aqua;
+}
+
+a[href].quo:before {
+    content: open-quote;
+    color: red;
+}
+
+a[href].quo:after {
+    content: close-quote;
+    color: red;
+}
+
+a[href].lnk:before {
+    content: "[link]: ";
+    color: orange;
+}
+
+a[href].pdf::after {
+    content: url(01.insertingTextEnchancements.png);
+}
+
+a[href].att::after {
+    content: "["attr(href)"]";
+    color: green;
+}

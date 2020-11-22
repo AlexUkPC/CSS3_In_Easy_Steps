@@ -1,0 +1,13 @@
+p {
+    border: 1px solid black;
+    height: 50px;
+    background: yellow;
+}
+
+p.help-cursor {
+    cursor: help;
+}
+
+p.arrow-cursor {
+    cursor: url(04.providingSpecialCursors.cur), default;
+}

@@ -1,0 +1,7 @@
+input:focus {
+    background: lime;
+}
+
+a:focus {
+    background: aqua;
+}

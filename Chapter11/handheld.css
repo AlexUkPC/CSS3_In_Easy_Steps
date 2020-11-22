@@ -1,0 +1,14 @@
+@import "reset.css";
+
+h2 {
+    background: red;
+    color: white;
+}
+
+div#list,
+div#foot,
+div#tips,
+h1,
+h3 {
+    display: none;
+}

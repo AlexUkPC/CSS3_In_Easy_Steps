@@ -1,0 +1,8 @@
+body {
+    font-family: monospace;
+}
+
+div#foot,
+div#list {
+    display: none;
+}

@@ -1,0 +1,22 @@
+/* 
+Description: Tabloid newspaper format.
+Author: Alex Rogna
+Version: 1.0 
+*/
+
+/* Reset browser default */
+@import "01.resetingBrowserDefaults.css";
+
+/* Text Content */
+p {
+    font: large cursive;
+}
+
+/* Banner headings */
+h1 {
+    background: red;
+    color: white;
+    font: 2em white;
+    padding: 0.2em;
+    width: 5em;
+}
